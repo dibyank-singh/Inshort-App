@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Inshort-App/static/css/main.073c9b0a.css",
-    "main.js": "/Inshort-App/static/js/main.23b6e951.js",
+    "main.js": "/Inshort-App/static/js/main.caba81f9.js",
     "static/js/787.774729bc.chunk.js": "/Inshort-App/static/js/787.774729bc.chunk.js",
     "index.html": "/Inshort-App/index.html",
     "main.073c9b0a.css.map": "/Inshort-App/static/css/main.073c9b0a.css.map",
-    "main.23b6e951.js.map": "/Inshort-App/static/js/main.23b6e951.js.map",
+    "main.caba81f9.js.map": "/Inshort-App/static/js/main.caba81f9.js.map",
     "787.774729bc.chunk.js.map": "/Inshort-App/static/js/787.774729bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.23b6e951.js"
+    "static/js/main.caba81f9.js"
   ]
 }
