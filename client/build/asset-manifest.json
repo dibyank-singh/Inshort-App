@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Inshort-App/static/css/main.073c9b0a.css",
+    "main.js": "/Inshort-App/static/js/main.04a23e7d.js",
+    "static/js/787.774729bc.chunk.js": "/Inshort-App/static/js/787.774729bc.chunk.js",
+    "index.html": "/Inshort-App/index.html",
+    "main.073c9b0a.css.map": "/Inshort-App/static/css/main.073c9b0a.css.map",
+    "main.04a23e7d.js.map": "/Inshort-App/static/js/main.04a23e7d.js.map",
+    "787.774729bc.chunk.js.map": "/Inshort-App/static/js/787.774729bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.04a23e7d.js"
+  ]
+}
