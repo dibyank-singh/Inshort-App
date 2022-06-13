@@ -19,18 +19,20 @@ app.use( Router)
 
 // Deploying statement for heroku 
 
-var  __dirname=path.resolve()
-if(process.env.NODE_ENV==="production"){
-    app.use(express.static(path.join(__dirname, "/client/build")))
-    app.get("*",(req,res)=>{
-                res.sendFile(path.resolve(__dirname,"client","build","index.html"))
-            })
+var __dirname= path.resolve()
 
-}else {
-    app.get((req , res)=>{
-      res.send("api server running test")
+if(process.env.NODE_ENV ==="production"){ 
+    app.use(express.static(path.join(__dirname ,"/client/build")))
+ 
+    app.get("*",(req,res)=>{
+        res.sendFile(path.resolve(__dirname,"client","build","index.html"))
+    })
+} else {
+    app.get("/",(req , res)=>{
+        res.send("api server is running test ")
     })
 }
+
 connect();
 
 app.listen( Port , ()=> console.log(`Server is runnning at ${Port}`) )
