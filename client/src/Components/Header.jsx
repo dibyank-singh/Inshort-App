@@ -1,6 +1,7 @@
 import React from 'react'
-import { AppBar, Toolbar, IconButton, makeStyles } from '@material-ui/core'
+import { AppBar, Toolbar, IconButton, makeStyles, Typography } from '@material-ui/core'
 import {Menu} from '@material-ui/icons'
+
 
 const useStyle = makeStyles({
 header:{
@@ -28,9 +29,10 @@ const Header = () => {
         <Toolbar>
           <Menu className={classes.menu_color}/>
        <img className={classes.logo} src={url} alt="insort-logo" />
+       <Typography style={{color:"black"}}></Typography>
         </Toolbar>
       </AppBar>
-
+    
     </div>
   )
 }

@@ -21,16 +21,15 @@ headline_style:{
 function App() {
   const classes=useStyle();
   return (
+    
     <Box>
-      <Header />
+      <Header/>
       <Box className={classes.headline_style} >
       <Headline/>
-       <Allposts/>   
+      <Allposts/>    
       </Box>
-
     </Box>
-
-
+    
   );
 }
 
